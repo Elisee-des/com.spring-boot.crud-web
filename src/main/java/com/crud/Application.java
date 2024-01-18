@@ -1,13 +1,13 @@
-package com.crudapp;
+package com.crud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CrudAppApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CrudAppApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
